@@ -2,7 +2,7 @@ import React from 'react';
 import { useLoaderData, useParams } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import { saveJobApplication } from '../../utility/localstorage';
-// import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
 
 const JobDetails = () => {
     const jobs = useLoaderData();
